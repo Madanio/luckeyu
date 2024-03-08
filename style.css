@@ -116,6 +116,11 @@ footer{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.join p{
+    color: #000;
+    padding: 10px;
+    text-align: center;
+}
 .join button{
     background-color: #000;
     color: #B69650;
