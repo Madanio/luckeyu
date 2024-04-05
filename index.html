@@ -3,15 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5573003076509926"
-     crossorigin="anonymous"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5573003076509926"
-     crossorigin="anonymous"></script>
     <link rel="icon" href="icon.jpeg">
-    <title>LuckeyU</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Lucky U</title>
 </head>
 <body>
     <header>
@@ -21,64 +16,14 @@
             <a href="#"><i class='bx bxs-user'></i></a>
         </div>
     </header>
-    <main class="home-page">
-        <section class="sec1"> 
-            <img src="luckeyu-main.png">
-            <p><a href="giveaways.html" class="main-btn" target="_blank">see more !</a></p>
-        </section>
-        
-        <section class="about">
-            <div>
-                <h2>About Us</h2>
-                    <p>
-                        Welcome to LuckyU, your go-to destination for exciting giveaways and fantastic prizes! We are a team of passionate individuals dedicated to bringing joy and excitement to our community through fun and rewarding experiences.
-                    </p>
-            </div>
-        </section>
-        
-        <section class="contact">
-            
-            <form id="contactForm" onsubmit="emailSend(); reset(); return false;">
-                <h2>Contact Us</h2>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-        
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-        
-                <button type="submit">Submit</button>
-            </form>
-            <script src="https://smtpjs.com/v3/smtp.js"></script>
-            <script>
-                function emailSend(){
-                        var name = document.getElementById('name').value;
-                        var email = document.getElementById('email').value;
-                        var phone = document.getElementById('message').value;
-                        
-
-                        var messageBody = "name: \t\t" + name +
-                        "<br/> email:\t\t" + email +
-                        "<br/> message:\t\t" + message ;
-
-                    Email.send({
-                        Host : "smtp.elasticemail.com",
-                        Username : "ouahmanemadani189@gmail.com",
-                        Password : "504B6E9E85B3D01F27DA15992F0F7E5FD439",
-                        To : 'luckeyu.online@gmail.com',
-                        From : "ouahmanemadani189@gmail.com",
-                        Subject : "This is the subject",
-                        Body : "New user is here <br/>" + messageBody ,
-                    }).then(
-                    message => alert("contact form has been sent succesfully")
-                    );
-                    }
-            </script>
-        </section>
-
-    </main>
+    <section>
+        <div class="box">
+            <h2>
+                SORRY ... <br>
+                TOMPOPARILY OUT OF SERVICE 
+            </h2>
+        </div>
+    </section>
     <footer>
         <p>&copy; 2024-2025 LuckyU</p>
     </footer>
